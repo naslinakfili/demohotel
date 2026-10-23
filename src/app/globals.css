@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-plus-jakarta-sans), "Plus Jakarta Sans", sans-serif;
+  --color-terracotta-50: #fdf6f3;
+  --color-terracotta-100: #fbeae4;
+  --color-terracotta-500: #c85a32;
+  --color-terracotta-600: #b04824;
+  --color-terracotta-700: #92381b;
+}
+
+/* Custom scrollbar & transisi halus */
+.fade-transition {
+  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
